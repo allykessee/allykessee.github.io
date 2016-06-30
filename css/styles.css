@@ -74,7 +74,7 @@ a.btn-cta-primary:hover,
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: #19EC19;
+  background: #479FC8;
   border: 1px solid #479FC8;
   color: #fff;
   font-weight: 600;
@@ -82,7 +82,7 @@ a.btn-cta-secondary,
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #3893bd;
+  background: #19EC19;
   border: 1px solid #3893bd;
   color: #fff;
 }
