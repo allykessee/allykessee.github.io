@@ -20,7 +20,12 @@
     
     <!-- JSCharts -->
     <script type="text/javascript" src="js/jscharts.js"></script>
-    
+    <script type="text/javascript">
+	var myData = new Array([10, 20], [15, 10], [20, 30], [25, 10], [30, 5]);
+	var myChart = new JSChart('chartcontainer', 'line');
+	myChart.setDataArray(myData);
+	myChart.draw();
+</script>
     <!-- github calendar css -->
     <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"/>
     <!-- github acitivity css -->
